@@ -14,3 +14,15 @@ int main(void)
 {
     ft_putchar('d');
 }
+
+
+/*
+Comando no terminal para norminette:
+$ norminette "arquivo".c
+
+Comando no terminal para compilar código:
+$ gcc -Wall -Wextra -Werror "arquivo".c
+Comando no terminal para exibir:
+$./a.out
+
+*/
