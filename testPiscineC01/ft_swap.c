@@ -1,13 +1,11 @@
-#include <unistd.h>
-#include <stdio.h>
-
 void	ft_swap(int *a, int *b)
 {
     int temporarario = *a;
     *a = *b;
     *b = temporarario;
 }
-
+/*
+#include <stdio.h>
 int	main()
 {
     int x = 1, y = 5;
@@ -20,3 +18,4 @@ int	main()
 
     return (0);
 }
+ */

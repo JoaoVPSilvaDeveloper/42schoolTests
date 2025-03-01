@@ -1,11 +1,8 @@
-#include <unistd.h>
-#include <stdio.h>
-
 void ft_ultimate_ft(int *********ptr)
 {
   *********ptr = 1;
 }
-
+/*
 int main()
 {
   int valor = 55;
@@ -24,3 +21,4 @@ int main()
 
   return 0;
 }
+ */
