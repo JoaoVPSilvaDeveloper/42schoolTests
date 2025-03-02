@@ -3,10 +3,10 @@ void ft_div_mod(int a, int b, int *div, int *mod)
    *div = a / b;
    *mod = a % b;
 }
-
+/*
 #include <stdio.h>
 
-int main()
+int main(void)
 {
    int x = 10, y = 2;
 
@@ -18,3 +18,4 @@ int main()
    printf("valor de x: %d, e valor de y: %d\n", x, y);
 
 }
+*/
