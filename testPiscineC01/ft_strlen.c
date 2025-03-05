@@ -8,6 +8,8 @@ void ft_strlen(char *str)
       *str++;
     }
 }
+
+
 #include <stdio.h>
 
 int main()
