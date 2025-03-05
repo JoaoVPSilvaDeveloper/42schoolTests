@@ -17,7 +17,7 @@ char    *ft_strcpy(char *dest, char *src)
 int main()
 {
   char src[] = "Hello World!";
-  char dest[20];
+  char dest[50];
 
   ft_strcpy(dest, src);
 
