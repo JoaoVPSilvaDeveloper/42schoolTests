@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int ft_str_is_alpha(char *str) {
+int ft_str_is_lowercase(char *str) {
   int limite;
 
   for (limite = 0;  str[limite] != '\0'; limite++) {
@@ -13,9 +13,9 @@ int ft_str_is_alpha(char *str) {
 
 int main(void)
 {
-  char str[] = "hello";
+  char str[] = "Hello";
 
-  if (ft_str_is_alpha(str))
+  if (ft_str_is_lowercase(str))
     printf("true\n");
   else
     printf("false\n");
