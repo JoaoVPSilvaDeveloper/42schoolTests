@@ -1,0 +1,21 @@
+Login com exame / exame na tela de login no laboratório 42
+
+Abra um terminal e digite kinit <username>sua senha após o prompt
+
+Digite examshellem um terminal para começar
+
+Instalar sublime de/nfs/munki_repo/pkgs/apps/SublimeText/
+
+Você pode acessar isso abrindo Finder --> Ir --> Ir para a pasta (ou [command] + [shift] + G)
+
+Adicione o clique direito do mouse em Preferências do Sistema --> Mouse
+
+Adicione hotcorners em Preferências do Sistema --> Controle da Missão --> Hotcorners
+
+Se você precisar usar o Vim, adicione realce de sintaxe com:syntax on
+
+Não se esqueça de limpar, comentar, remover seu código de teste, execs e bibliotecas antes do envio
+
+Não se esqueça de enviar seu código regularmente para o rendu/<test question>diretório do vogsphere antes de digitar grademe e y no terminal examshell
+
+Leia todos os assuntos e exemplos novamente antes do envio final
