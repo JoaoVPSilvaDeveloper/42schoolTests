@@ -12,7 +12,7 @@ char    *ft_strcpy(char *dest, char *src)
 
     return inicio;
 }
-
+/*
 #include <stdio.h>
 int main()
 {
@@ -25,4 +25,5 @@ int main()
 
   return 0;
 }
+*/
 

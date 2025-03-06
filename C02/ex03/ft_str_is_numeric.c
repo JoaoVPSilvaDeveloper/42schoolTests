@@ -12,8 +12,7 @@ int ft_str_is_numeric(char *str)
   while (str[limite] != '\0')
   {
     if (!(str[limite] >= '0' && str[limite] <= '9'))
-      return (0);
-      
+      return (0); 
     limite++;
   }
   return (1);
