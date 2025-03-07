@@ -6,7 +6,10 @@ char *ft_strupcase(char *str)
     while (str[limite] != '\0')
     {
         if (str[limite] >= 'a' && str[limite] <= 'z')
-            str[limite] = str[limite] - 32;
+        {
+            str[limite] -= 32;
+        }
         limite++;
     }
+    return (str);
 }
