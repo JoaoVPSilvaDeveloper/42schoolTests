@@ -1,11 +1,21 @@
 char  *ft_strncpy(char *dest, char *src, int n)
 {
+  int start;
+  start = 0;
 
-  int i;
-  i = 0;
-  while (i < n)
+  while (src[start] != '\0' && start < n)
+  {
+    dest[start] = src[start];
+    start++;
+  }
+  while (start < n)
+  {
+    dest[start] = '\0';
+    start++;
+  }
+  return (dest);
 }
-
+/*
 #include <stdio.h>
 int main()
 {
@@ -15,5 +25,4 @@ int main()
 
   ft_strncpy(dest, src, limite);
   printf("Depois da funcão: %s\n", dest);
-}
-
+}*/
